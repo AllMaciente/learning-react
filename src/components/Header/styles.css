@@ -1,0 +1,23 @@
+.header ul{
+    display: flex;
+    list-style-type: none;
+}
+.header li.nav{
+    padding: 1vh 1vw;
+    text-decoration: 'none'
+}
+/* styles.css */
+.header .nav-link {
+    transition: all 500ms;
+    text-decoration: none;
+    font-weight: 900;
+    color: #d1d1d1;
+    border-bottom: 2px solid #d1d1d1;
+}
+
+.header .nav-link:hover{
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+
+}
+  
