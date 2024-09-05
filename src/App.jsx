@@ -4,7 +4,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import About from "./pages/About";
-import Home from "./pages/Home";
+import ApiRickAndMorty from "./pages/ApiRickAndMorty";
 import Login from "./pages/Login";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<ApiRickAndMorty />} />
         <Route path="/about" element={<About />} />
         <Route path="/Login" element={<Login />} />
       </Routes>
